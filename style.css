@@ -1,4 +1,3 @@
-
 body {
 margin : 0;
 padding : 0;
@@ -172,6 +171,11 @@ padding-left : 0;
 #bloc-1-hero h1 {
 font-size : 210%;
 }
+@media (max-width: 768px) {
+    #bloc-1-hero h1 {
+        font-size : 170%;
+    }
+} 
 .navbar {
 margin-bottom : 0;
 z-index : 1;
@@ -462,6 +466,11 @@ font-weight : 300;
 color : #1b1b1b !important ;
 text-decoration : none;
 }
+@media (max-width: 768px) {
+    a {
+        font-size : 100%;
+    }
+} 
 li {
 list-style : none;
 margin-right : 10px;
@@ -487,6 +496,11 @@ margin : auto auto auto auto;
 p {
 font-size : 100%;
 }
+@media (max-width: 768px) {
+    p {
+        font-size : 90%;
+    }
+} 
 .tight-width-whitespace {
 max-width : 600px;
 margin : auto auto auto auto;
@@ -503,6 +517,11 @@ padding : 12px 28px 12px 28px;
 font-size : 130%;
 font-weight : 700;
 }
+@media (max-width: 768px) {
+    .cta-hero {
+        font-size : 100%;
+    }
+} 
 .social {
 max-width : 400px;
 margin : auto auto auto auto;
@@ -511,6 +530,11 @@ h2 {
 font-size : 120%;
 line-height : 1.4em;
 }
+@media (max-width: 768px) {
+    h2 {
+        font-size : 100%;
+    }
+} 
 h3 {
 font-size : 15px;
 text-transform : uppercase;
